@@ -18,7 +18,7 @@ services:
       KAFKA_ADVERTISED_HOST_NAME: 127.0.0.1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
-      KAFKA_CREATE_TOPICS: "ITEM.TOPIC:1:1" # one partition three replica
+      KAFKA_CREATE_TOPICS: "ITEM.TOPIC:1:1" # one partition one replica
 ```
 
 Publish/producer a message every 2000ms 
